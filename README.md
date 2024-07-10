@@ -12,4 +12,5 @@
 ### Tree
 * Problem 1 - Create a binary tree. Also write inorder traversal for the tree.
 * Problem 2 - Use the same binary tree in the previous question. Write pre-order and post-order traversal for the tree.
-* Problem 3 - Create a Binary Search Tree (BST). Write in-order, pre-order and post-order traversal for it. Check which traversal outputs the nodes in ascending order. 
+* Problem 3 - Create a Binary Search Tree (BST). Write in-order, pre-order and post-order traversal for it. Check which traversal outputs the nodes in ascending order.
+* Problem 4 - Create 2 trees. Check if both the trees have same or different nodes. Execute for 3 conditions - 1. when both trees have same nodes. 2. When both trees have different nodes. 3. When both trees have some common nodes.
