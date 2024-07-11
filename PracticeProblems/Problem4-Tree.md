@@ -1,4 +1,4 @@
-# Description
+## Description
 
 Create 2 Binary Trees. 
 Check if both the trees have same or different nodes. 

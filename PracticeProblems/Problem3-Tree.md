@@ -1,4 +1,4 @@
-# Description
+## Description
 
 Create a Binary Search Tree (BST). 
 Write in-order, pre-order and post-order traversal for it. 
