@@ -1,6 +1,6 @@
 ## Problems
 
-Check the latest problem in [Milestone1_100_Problems](https://github.com/ThreeMangoTrees/LetUsCode/tree/main/PracticeProblems/Milestone1_100_Problems) directory for today's problem.
+Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetUsCode/tree/main/PracticeProblems/Milestone1) directory for today's problem.
 
 #### Milestone1 Progress Bar
 
