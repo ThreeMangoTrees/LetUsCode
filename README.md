@@ -10,4 +10,4 @@
 
 ## Problems
 
-Check the PracticeProblems directory for the problems.
+Check the latest problem in the [PracticeProblems](https://github.com/ThreeMangoTrees/LetUsCode/tree/main/PracticeProblems) directory for today's problem.
