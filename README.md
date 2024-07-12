@@ -1,3 +1,18 @@
+## Problems
+
+Check the latest problem in [Milestone1_100_Problems](https://github.com/ThreeMangoTrees/LetUsCode/tree/main/PracticeProblems/Milestone1_100_Problems) directory for today's problem.
+
+#### Milestone1 Progress Bar
+
+| Coder      | Milestone1 Current Progress | Status |
+|------------|-----------------------------|--------|
+| Shiladitya | 5/100                       | Active |
+| Hritwik    | 4/100                       | Active |
+| Vinit      | 2/100                       | Active |
+| Saad       | 0/100                       | Active |
+
+
+
 ## Submission Process
 
 * Fork LetUsCode:main branch from this github repo into your github repo.
@@ -8,9 +23,3 @@
 * Create a pull request for the code you pushed to your github repo.
 
 
-## Problems
-### Tree
-* Problem 4 - Create 2 trees. Check if both the trees have same or different nodes. Execute for 3 conditions - 1. when both trees have same nodes. 2. When both trees have different nodes. 3. When both trees have some common nodes.
-* Problem 3 - Create a Binary Search Tree (BST). Write in-order, pre-order and post-order traversal for it. Check which traversal outputs the nodes in ascending order.
-* Problem 2 - Use the same binary tree in the previous question. Write pre-order and post-order traversal for the tree.
-* Problem 1 - Create a binary tree. Also write inorder traversal for the tree.
