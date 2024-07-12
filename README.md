@@ -10,4 +10,16 @@
 
 ## Problems
 
-Check the latest problem in the [PracticeProblems](https://github.com/ThreeMangoTrees/LetUsCode/tree/main/PracticeProblems) directory for today's problem.
+Check the latest problem in [Milestone1_100_Problems](https://github.com/ThreeMangoTrees/LetUsCode/tree/main/PracticeProblems/Milestone1_100_Problems) directory for today's problem.
+
+## Milestone1 
+
+Current Problem - Problem6/Problem100.
+
+### Progress Bar 
+
+| Coder | Milestone1 Current Progress | Status |
+| Shiladitya | 5/100 | Active |
+| Hritwik | 4/100 | Active |
+| Vinit | 2/100 | Active |
+| Saad | 0/100 | Active |
