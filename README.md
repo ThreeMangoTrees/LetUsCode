@@ -1,6 +1,6 @@
 ## Problems
 
-Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetUsCode/tree/main/PracticeProblems/Milestone1) directory for today's problem.
+Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetUsCode/tree/main/PracticeProblems/Milestone1) for today's problem.
 
 #### Milestone1 Progress Bar
 
@@ -8,7 +8,7 @@ Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetU
 |------------|-----------------------------|--------|
 | SBiswas	 | 5/100                       | Active |
 | Hritwik    | 4/100                       | Active |
-| VinitKumar | 4/100                       | Active |
+| VinitKumar | 5/100                       | Active |
 | Saad       | 0/100                       | Active |
 
 
