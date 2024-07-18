@@ -27,13 +27,13 @@ namespace VinitKumar.Problems
             }
             else
             {
-                if(Root1?.Val != Root2?.Val)
+                if(Root1?.val != Root2?.val)
                 {
                     return false;
                 }
             }
 
-            return InOrderTraversalRecursive(Root1?.Left, Root2?.Left) && InOrderTraversalRecursive(Root1?.Right, Root2?.Right);
+            return InOrderTraversalRecursive(Root1?.left, Root2?.left) && InOrderTraversalRecursive(Root1?.right, Root2?.right);
         }
 
         public static bool IsSameTree(TreeNode? Root1, TreeNode? Root2)

@@ -13,9 +13,9 @@ namespace VinitKumar.Problems
         {
             if (Root != null)
             {
-                Console.Write($"{Root.Val}, ");
-                PreOrder(Root.Left);
-                PreOrder(Root.Right);
+                Console.Write($"{Root.val}, ");
+                PreOrder(Root.left);
+                PreOrder(Root.right);
             }
         }
 
@@ -23,9 +23,9 @@ namespace VinitKumar.Problems
         {
             if (Root != null)
             {
-                InOrder(Root.Left);
-                Console.Write($"{Root.Val}, ");
-                InOrder(Root.Right);
+                InOrder(Root.left);
+                Console.Write($"{Root.val}, ");
+                InOrder(Root.right);
             }
         }
 
@@ -33,9 +33,9 @@ namespace VinitKumar.Problems
         {
             if (Root != null)
             {
-                PostOrder(Root.Left);
-                PostOrder(Root.Right);
-                Console.Write($"{Root.Val}, ");
+                PostOrder(Root.left);
+                PostOrder(Root.right);
+                Console.Write($"{Root.val}, ");
             }
         }
     }

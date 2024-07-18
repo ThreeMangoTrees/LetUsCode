@@ -14,9 +14,9 @@ namespace VinitKumar.Problems
         {
             if (Root == null) return;
 
-            InOrderTraversalRecursive(Root.Left);
-            Console.WriteLine(Root.Val);
-            InOrderTraversalRecursive(Root.Right);
+            InOrderTraversalRecursive(Root.left);
+            Console.WriteLine(Root.val);
+            InOrderTraversalRecursive(Root.right);
         }
     }
 }
