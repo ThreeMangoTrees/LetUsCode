@@ -1,6 +1,6 @@
 ## Problems
 
-Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetUsCode/blob/VinitKumarBranch/PracticeProblems/Milestone1.md) for today's problem.
+Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetUsCode/blob/main/PracticeProblems/Milestone1.md) for today's problem.
 
 #### Milestone1 Progress Bar
 
@@ -32,5 +32,4 @@ Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetU
 
 * Push the code changes to your remote branch created in first step.
 * Create a pull request for the code you pushed to your github repo.
-
 
