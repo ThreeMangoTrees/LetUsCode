@@ -48,6 +48,6 @@ class Solution:
         
 solution = Solution()
 response = solution.isSameTree(root1, root2)
-print(f'Binary trees Root1 and Root2 are same [True or False] ? : {response}')
+print(f'Binary trees with root-  Root1 and Root2 are same [True or False] ? : {response}')
 
         
