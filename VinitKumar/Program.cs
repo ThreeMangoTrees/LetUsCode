@@ -7,31 +7,31 @@ using VinitKumar.Utilities;
 Console.WriteLine("Problem 6");
 
 TreeNode? treeNode = new TreeNode(1);
-treeNode.Left = new TreeNode(2);
-treeNode.Right = new TreeNode(2);
-treeNode.Left.Left = new TreeNode(3);
-treeNode.Left.Right = new TreeNode(4);
-treeNode.Right.Left = new TreeNode(4);
-treeNode.Right.Right = new TreeNode(3);
+treeNode.left = new TreeNode(2);
+treeNode.right = new TreeNode(2);
+treeNode.left.left = new TreeNode(3);
+treeNode.left.right = new TreeNode(4);
+treeNode.right.left = new TreeNode(4);
+treeNode.right.right = new TreeNode(3);
 Console.WriteLine($"IsSymmetric tree ? - {Problem6.IsSymmetric(treeNode)}");
 
 
 Console.WriteLine("Problem 5");
 
 TreeNode? treeNode1 = new TreeNode(1);
-treeNode1.Left = new TreeNode(2);
-treeNode1.Right = new TreeNode(3);
-treeNode1.Left.Left = new TreeNode(4);
-treeNode1.Left.Right = new TreeNode(5);
-treeNode1.Right.Left = new TreeNode(6);
-treeNode1.Right.Right = new TreeNode(7);
+treeNode1.left = new TreeNode(2);
+treeNode1.right = new TreeNode(3);
+treeNode1.left.left = new TreeNode(4);
+treeNode1.left.right = new TreeNode(5);
+treeNode1.right.left = new TreeNode(6);
+treeNode1.right.right = new TreeNode(7);
 TreeNode? treeNode2 = new TreeNode(1);
-treeNode2.Left = new TreeNode(2);
-treeNode2.Right = new TreeNode(3);
-treeNode2.Left.Left = new TreeNode(4);
-treeNode2.Left.Right = new TreeNode(5);
-treeNode2.Right.Left = new TreeNode(6);
-treeNode2.Right.Right = new TreeNode(7);
+treeNode2.left = new TreeNode(2);
+treeNode2.right = new TreeNode(3);
+treeNode2.left.left = new TreeNode(4);
+treeNode2.left.right = new TreeNode(5);
+treeNode2.right.left = new TreeNode(6);
+treeNode2.right.right = new TreeNode(7);
 Console.WriteLine($"IsSame tree ? - {Problem5.IsSameTree(treeNode1, treeNode2)}");
 
 
