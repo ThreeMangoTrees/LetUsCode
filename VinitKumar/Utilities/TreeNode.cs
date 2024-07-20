@@ -8,8 +8,8 @@ namespace VinitKumar.Utilities
 {
     public class TreeNode(int Value)
     {
-        public int Val { get; set; } = Value;
-        public TreeNode? Left { get; set; } = null;
-        public TreeNode? Right { get; set; } = null;
+        public int val { get; set; } = Value;
+        public TreeNode? left { get; set; } = null;
+        public TreeNode? right { get; set; } = null;
     }
 }

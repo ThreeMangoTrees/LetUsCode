@@ -9,19 +9,19 @@ namespace VinitKumar.Problems
 {
     public class Problem6
     {
-        private static bool Traverse(TreeNode? Left, TreeNode? Right)
+        private static bool Traverse(TreeNode? left, TreeNode? right)
         {
-            if(Left is null && Right is null)
+            if(left is null && right is null)
             {
                 return true;
             }
 
-            if(Left?.Val != Right?.Val)
+            if(left?.val != right?.val)
             {
                 return false;
             }
 
-            return Traverse(Left?.Left, Right?.Right) && Traverse(Left?.Right, Right?.Left);
+            return Traverse(left?.left, right?.right) && Traverse(left?.right, right?.left);
             
         }
 
@@ -31,7 +31,7 @@ namespace VinitKumar.Problems
             {
                 return true;
             }
-            return Traverse(Root?.Left, Root?.Right);
+            return Traverse(Root?.left, Root?.right);
         }
     }
 }
