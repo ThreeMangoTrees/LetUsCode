@@ -21,12 +21,13 @@ Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetU
 
 ### Directory Structure
 
-* Create a directory by your name e.g. VinitKumar. Inside this directory create sub-directory Problems. Inside Problem sub-directory create sub-sub-directory Milestone1. 
+* <Your_Name>/Milestone1/Problem1.cs e.g. VinitKumar/Milestone1/Problem1.cs
 
 ### Submit a solution
 
-* Add Solution to a problem in VinitKumar/Problems/Milestone1/Problem1.cs
-* Add solution to each problem in a separate file. e.g. Add solution to Problem1 in Problem1.* file.
+* Add Solution to a problem in VinitKumar/Milestone1 e.g.
+	* VinitKumar/Milestone1/Problem1.cs
+	* VinitKumar/Milestone1/Problem2.cs
 
 ### Pull Requests
 
