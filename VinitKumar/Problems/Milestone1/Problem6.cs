@@ -1,37 +1,18 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using VinitKumar.Utilities;
 
-namespace VinitKumar.Problems
+namespace VinitKumar.Problems.Milestone1
 {
     public class Problem6
     {
-        private static bool Traverse(TreeNode? left, TreeNode? right)
+        public static int MaxDepth(TreeNode? root)
         {
-            if(left is null && right is null)
-            {
-                return true;
-            }
-
-            if(left?.val != right?.val)
-            {
-                return false;
-            }
-
-            return Traverse(left?.left, right?.right) && Traverse(left?.right, right?.left);
-            
-        }
-
-        public static bool IsSymmetric(TreeNode? Root)
-        {
-            if(Root is null)
-            {
-                return true;
-            }
-            return Traverse(Root?.left, Root?.right);
+            if (root == null) return 0;
+            return 1 + Math.Max(MaxDepth(root?.left), MaxDepth(root?.right));
         }
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using VinitKumar.Utilities;
 
-namespace VinitKumar.Problems
+namespace VinitKumar.Problems.Milestone1
 {
     public class Problem1
     {
