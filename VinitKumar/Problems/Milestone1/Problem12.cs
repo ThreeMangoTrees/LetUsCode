@@ -3,7 +3,7 @@ using VinitKumar.Utilities;
 
 namespace VinitKumar.Problems.Milestone1
 {
-    public static class Problem13
+    public static class Problem12
     {
         public static TreeNode? SearchBST(TreeNode? root, int val)
         {

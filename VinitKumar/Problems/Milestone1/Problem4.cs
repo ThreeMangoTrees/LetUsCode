@@ -5,28 +5,41 @@ using System.Text;
 using System.Threading.Tasks;
 using VinitKumar.Utilities;
 
-namespace VinitKumar.Problems
+namespace VinitKumar.Problems.Milestone1
 {
     public class Problem4
     {
-        public static void PreOrder(TreeNode? Root)
+
+        private static bool InOrderTraversalRecursive(TreeNode? Root1, TreeNode? Root2)
         {
-            if (Root != null)
-            {
-                Console.Write($"{Root.val}, ");
-                PreOrder(Root.left);
-                PreOrder(Root.right);
+
+            if (Root1 == null && Root2 == null) 
+            { 
+                return true; 
             }
+            else if (Root1 == null && Root2 != null)
+            {
+                return false;
+            }
+            else if (Root1 != null && Root2 == null)
+            {
+                return false;
+            }
+            else
+            {
+                if(Root1?.val != Root2?.val)
+                {
+                    return false;
+                }
+            }
+
+            return InOrderTraversalRecursive(Root1?.left, Root2?.left) && InOrderTraversalRecursive(Root1?.right, Root2?.right);
         }
 
-        public static void PostOrder(TreeNode? Root)
+        public static bool IsSameTree(TreeNode? Root1, TreeNode? Root2)
         {
-            if (Root != null)
-            {
-                PostOrder(Root.left);
-                PostOrder(Root.right);
-                Console.Write($"{Root.val}, ");
-            }
+            return InOrderTraversalRecursive(Root1, Root2);
+            
         }
     }
 }

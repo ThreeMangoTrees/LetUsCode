@@ -8,7 +8,7 @@ using VinitKumar.Utilities;
 		1. Iterative solution only - [145. Binary Tree Postorder Traversal](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
  * */
 
-namespace VinitKumar.Problems
+namespace VinitKumar.Problems.Milestone1
 {
 	public class Problem11
 	{

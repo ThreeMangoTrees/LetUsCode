@@ -1,36 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using VinitKumar.Utilities;
+
+/*
+ * [112. Path Sum](https://leetcode.com/problems/path-sum/)
+ */
+
 
 namespace VinitKumar.Problems.Milestone1
 {
-    public class Problem8
+	public class Problem8
     {
-        private static int ans;
-        private static bool IsLeaf(TreeNode? root)
+        public bool HasPathSum(TreeNode root, int targetSum)
         {
-            return root?.left == null && root?.right == null;
-        }
-        private static void helper(TreeNode root)
-        {
-            if (root == null) return;
-
-            if (root.left != null && IsLeaf(root.left))
-            {
-                ans += root.left.val;
-            }
-
-            helper(root.left);
-            helper(root.right);
-        }
-        public int SumOfleftLeaves(TreeNode root)
-        {
-            ans = 0;
-            helper(root);
-            return ans;
+            if (root == null) return false;
+            if (root.left == null && root.right == null && targetSum - root.val == 0) return true;
+            return HasPathSum(root.left, targetSum - root.val) || HasPathSum(root.right, targetSum - root.val);
         }
     }
 }
