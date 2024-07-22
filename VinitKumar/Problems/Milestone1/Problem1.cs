@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using VinitKumar.Utilities;
 
-namespace VinitKumar.Problems
+namespace VinitKumar.Problems.Milestone1
 {
     public class Problem1
     {
@@ -14,9 +14,9 @@ namespace VinitKumar.Problems
         {
             if (Root == null) return;
 
-            InOrderTraversalRecursive(Root.Left);
-            Console.WriteLine(Root.Val);
-            InOrderTraversalRecursive(Root.Right);
+            InOrderTraversalRecursive(Root.left);
+            Console.WriteLine(Root.val);
+            InOrderTraversalRecursive(Root.right);
         }
     }
 }

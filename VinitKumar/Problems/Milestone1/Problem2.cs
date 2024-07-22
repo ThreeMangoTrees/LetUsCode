@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using VinitKumar.Utilities;
 
-namespace VinitKumar.Problems
+namespace VinitKumar.Problems.Milestone1
 {
     public class Problem2
     {
@@ -13,9 +13,9 @@ namespace VinitKumar.Problems
         {
             if(Root != null)
             {
-                Console.Write($"{Root.Val}, ");
-                PreOrder(Root.Left);
-                PreOrder(Root.Right);
+                Console.Write($"{Root.val}, ");
+                PreOrder(Root.left);
+                PreOrder(Root.right);
             }
         }
 
@@ -23,9 +23,9 @@ namespace VinitKumar.Problems
         {
             if(Root != null)
             {
-                PostOrder(Root.Left);
-                PostOrder(Root.Right);
-                Console.Write($"{Root.Val}, ");
+                PostOrder(Root.left);
+                PostOrder(Root.right);
+                Console.Write($"{Root.val}, ");
             }
         }
     }
