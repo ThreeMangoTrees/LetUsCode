@@ -17,9 +17,7 @@ class Node:
         self.right=None
 
 class Solution:
-# Inorder traversal of the above binary tree
     def __init__(self):
-        # Initializes Solution object
         self.root = None
         pass
     
