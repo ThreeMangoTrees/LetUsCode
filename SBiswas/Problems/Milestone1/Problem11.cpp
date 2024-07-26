@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <stack>
+#include <algorithm>
 /*
     TODO: Modularize the code. For example build a different header file 
     with class Node and Class BST for binary search tree.
@@ -97,7 +98,7 @@ void left_most_preorder(Node* root)
 void preorderTraversal(Node* root)
 {   
     /*
-        Iterative Inorder tree traversal
+        Iterative Preorder tree traversal
     */
     left_most_preorder(root);
 
@@ -116,6 +117,41 @@ void preorderTraversal(Node* root)
     
 }
 
+void postorderTraversal(Node* root)
+{   
+    if(!root)
+    {
+        cout<<"Tree is empty";
+    }
+    vector<int> ans;
+
+    stack<Node*> postorder_stack;
+    postorder_stack.push(root);
+
+    while(!postorder_stack.empty())
+    {
+        Node* curr_top = postorder_stack.top();
+        postorder_stack.pop();
+        ans.push_back(curr_top->data);
+
+        if(curr_top->right)
+        {
+            postorder_stack.push(curr_top->right);
+        }
+
+        if(curr_top->left)
+        {
+            postorder_stack.push(curr_top->left);
+        }
+    }
+
+    reverse(ans.begin(), ans.end());
+    for(int& i : ans)
+    {
+        cout<<i<<" ";
+    }
+}
+
 int main()
 {
     // Node values for BST
@@ -132,6 +168,9 @@ int main()
     cout<<"Inorder Traversal: ";
     preorderTraversal(tree);
     cout<<"\n";
+    postorderTraversal(tree);
+    cout<<"\n";
+
     
     return 0;
 }
