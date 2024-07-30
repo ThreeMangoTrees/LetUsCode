@@ -23,4 +23,5 @@
 16. [637. Average of Levels in Binary Tree](https://leetcode.com/problems/average-of-levels-in-binary-tree)
 17. [501. Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/)
 18. [530. Minimum Absolute Difference in BST](https://github.com/ThreeMangoTrees/LetUsCode/pulls)
+19. [Diameter of Binary Tree - LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/description/)
 
