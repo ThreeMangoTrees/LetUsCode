@@ -25,3 +25,4 @@
 18. [530. Minimum Absolute Difference in BST](https://github.com/ThreeMangoTrees/LetUsCode/pulls)
 19. [Diameter of Binary Tree - LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/description/)
 20. [938. Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/)
+21. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
