@@ -1,5 +1,5 @@
 /* 
-    Problem 21: Invert a binary tree
+    Problem 19: Diameter of a binary tree
 */
 
 #include<iostream>
@@ -21,18 +21,23 @@ struct TreeNode {
  
 class Solution {
 public:
-    TreeNode* invertTree(TreeNode* root) {
-
+    int max_depth(TreeNode* root, int& diameter)
+    {
         if(!root)
         {
-            return nullptr;
+            return 0;
         }
+        int l_depth = max_depth(root->left, diameter);
+        int r_depth = max_depth(root->right, diameter);
 
-        swap(root->left, root->right);
-        invertTree(root->left);
-        invertTree(root->right);
+        diameter = max(diameter, l_depth+r_depth);
 
-        return root;
-        
+        return 1 + max(l_depth, r_depth);
+    }
+    int diameterOfBinaryTree(TreeNode* root) {
+        int diameter=0;
+        max_depth(root, diameter);
+
+        return diameter;
     }
 };
