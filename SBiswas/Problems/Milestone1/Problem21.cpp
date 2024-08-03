@@ -1,5 +1,5 @@
 /* 
-    Problem 20: Range Sum of BST
+    Problem 21: Invert a binary tree
 */
 
 #include<iostream>
@@ -21,28 +21,18 @@ struct TreeNode {
  
 class Solution {
 public:
+    TreeNode* invertTree(TreeNode* root) {
 
-    void helper(TreeNode* root, int& low, int& high, int& sum)
-    {
         if(!root)
         {
-            return;
+            return nullptr;
         }
+
+        swap(root->left, root->right);
+        invertTree(root->left);
+        invertTree(root->right);
+
+        return root;
         
-        helper(root->left, low, high, sum);
-        if(root->val<=high && root->val>=low)
-        {
-            sum += root->val;
-        }
-        helper(root->right, low, high, sum);
-
-    }
-
-    int rangeSumBST(TreeNode* root, int low, int high) {
-        int ans =0;
-
-        helper(root, low, high, ans);
-
-        return ans;
     }
 };
