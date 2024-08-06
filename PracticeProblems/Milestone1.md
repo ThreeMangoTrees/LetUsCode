@@ -28,3 +28,5 @@
 21. [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)
 22. [617. Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/description/)
 23. [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)
+24. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
+25. [2236. Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/description/)
