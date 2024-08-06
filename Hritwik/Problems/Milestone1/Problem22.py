@@ -43,11 +43,9 @@ class Solution:
         return response
     def levelOrder(self, root):
         if root is None:
-            return []
-        
+            return []      
         queue = [root]
         response = []
-
         while queue:
             level=[]
             for i in range(len(queue)):
@@ -59,8 +57,7 @@ class Solution:
                     queue.append(top_of_queue.right)               
             response.append(level)
         return response
-    
-        
+     
 solution = Solution()
 response_tree = solution.mergeTrees(root1, root2)
 level_order_traversed_tree = solution.levelOrder(response_tree)
