@@ -30,3 +30,5 @@
 23. [993. Cousins in Binary Tree](https://leetcode.com/problems/cousins-in-binary-tree/description/)
 24. [108. Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)
 25. [2236. Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/description/)
+26. [572. Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/description/)
+27. [1379. Find a Corresponding Node of a Binary Tree in a Clone of That Tree](https://leetcode.com/problems/find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree/description/)
