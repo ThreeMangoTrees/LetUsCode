@@ -4,7 +4,7 @@ namespace VinitKumar.Problems.Milestone1
 {
     public class Problem14
     {
-        public IList<int> IterativePreorder(Node root)
+        private IList<int> IterativePreorder(Node root)
         {
             IList<int> ansI = new List<int>();
             if (root == null)
@@ -27,15 +27,15 @@ namespace VinitKumar.Problems.Milestone1
             return ansI;
         }
 
-        IList<int> ans;
-        public void RecursivePreOrder(Node root)
+        private IList<int> ansRPreOrder;
+        private void RecursivePreOrder(Node root)
         {
             if (root == null)
             {
                 return;
             }
 
-            ans.Add(root.val);
+            ansRPreOrder.Add(root.val);
 
             for (int i = 0; i < root.children.Count; i++)
             {
@@ -46,9 +46,61 @@ namespace VinitKumar.Problems.Milestone1
         public IList<int> Preorder(Node root)
         {
             //return IterativePreorder(root);
-            ans = new List<int>();
+            ansRPreOrder = new List<int>();
             RecursivePreOrder(root);
+            return ansRPreOrder;
+        }
+
+
+        // Part - 2
+
+        private IList<int> ansRPostOrder;
+        private IList<int> IterativePostOrder(Node root)
+        {
+            IList<int> ans = new List<int>();
+            if (root == null)
+            {
+                return ans;
+            }
+
+            Stack<Node> st = new Stack<Node>();
+            st.Push(root);
+            while (st.Count > 0)
+            {
+                Node crnt = st.Pop();
+                if (crnt.children is null) continue;
+                for (int i = 0; i < crnt.children.Count; i++)
+                {
+                    st.Push(crnt.children[i]);
+                }
+                ans.Insert(0, crnt.val);
+            }
             return ans;
+        }
+
+        
+        private void RecursivePostOrder(Node root)
+        {
+            if (root == null || root.children is null)
+            {
+                return;
+            }
+
+            for (int i = 0; i < root.children.Count; i++)
+            {
+                RecursivePostOrder(root.children[i]);
+            }
+
+            ansRPostOrder.Add(root.val);
+        }
+
+        public IList<int> Postorder(Node root)
+        {
+            //return Iterative(root);
+            ansRPostOrder = new List<int>();
+
+            RecursivePostOrder(root);
+            return ansRPostOrder;
         }
     }
 }
