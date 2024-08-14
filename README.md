@@ -1,16 +1,6 @@
 ## Problems
 
-Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetUsCode/blob/main/PracticeProblems/Milestone1.md) for today's problem.
-
-#### Milestone1 Progress Bar
-
-| Coder      | Milestone1 Current Progress | Status |
-|------------|-----------------------------|--------|
-| SBiswas	 | 5/100                       | Active |
-| Hritwik    | 4/100                       | Active |
-| VinitKumar | 5/100                       | Active |
-| Saad       | 0/100                       | Active |
-
+Check the latest problem in [Milestone2](https://github.com/ThreeMangoTrees/LetUsCode/blob/main/PracticeProblems/Milestone2.md) for today's problem.
 
 ## Submission Process
 
@@ -19,18 +9,23 @@ Check the latest problem in [Milestone1](https://github.com/ThreeMangoTrees/LetU
 * Fork LetUsCode:main branch from this github repo into your github repo.
 * Clone the branch locally.
 
-### Directory Structure
+### Directory Structure to submit problem
 
-* <Your_Name>/Milestone1/Problem1.cs e.g. VinitKumar/Milestone1/Problem1.cs
-
-### Submit a solution
-
-* Add Solution to a problem in VinitKumar/Milestone1 e.g.
+* <Your_Name>/Milestone2/Problem1.cs  E.g.
 	* VinitKumar/Milestone1/Problem1.cs
 	* VinitKumar/Milestone1/Problem2.cs
+	* VinitKumar/Milestone2/Problem1.cs
+ 	* VinitKumar/Milestone2/Problem2.cs
+ 
+### Create a local branch for each submission
+
+* For each problem, create a local branch in the format as - <your-name>/problem-<num>. E.g.
+  	* Create a local branch for problem 1 - `git checkout -b vinit/problem1`
+* Push this local branch to the remote origin and set it as upstream too -
+  	* git push --set-upstream origin vinit/problem1
+ 
 
 ### Pull Requests
 
-* Push the code changes to your remote branch created in first step.
-* Create a pull request for the code you pushed to your github repo.
+* After you push the code, go to your LetUsCode repo in github and create a pull request.
 
