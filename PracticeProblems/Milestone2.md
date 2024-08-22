@@ -6,3 +6,5 @@
 6. [1002. Find Common Characters](https://leetcode.com/problems/find-common-characters/description/)
 7. [13. Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)
 8. [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)
+9. [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
+10. [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)
