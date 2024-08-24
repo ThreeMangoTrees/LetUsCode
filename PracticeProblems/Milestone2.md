@@ -9,3 +9,4 @@
 9. [168. Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/description/)
 10. [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)
 11. [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
+12. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
