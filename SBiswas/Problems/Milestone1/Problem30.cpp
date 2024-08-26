@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+#include<unordered_map>
 
 using namespace std;
 
@@ -13,28 +14,35 @@ struct TreeNode {
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  };
- 
+
 class Solution {
 public:
-    TreeNode* treeBuilder(int left, int right, vector<int>& nums)
+
+    TreeNode* treeBuilder(vector<int>& nums, int left, int right)
     {
-        if(left>right)
+        if(left > right)
         {
             return nullptr;
         }
 
-        int mid = (left+right)/2;
+        int mid = (left + right)/2;
 
-        TreeNode* temp = new TreeNode(nums[mid]);
-        temp->left = treeBuilder(left, mid-1, nums);
-        temp->right = treeBuilder(mid+1, right, nums);
-
-        return temp;
-    }
-    TreeNode* sortedArrayToBST(vector<int>& nums) {
-        int left=0, right = nums.size()-1;
-        TreeNode* root = treeBuilder(left, right, nums);
+        TreeNode* root = new TreeNode(nums[mid]);
+        root->right = treeBuilder(nums, mid+1, right);
+        root->left = treeBuilder(nums, left, mid-1);
 
         return root;
-    }   
+    }
+
+    TreeNode* sortedArrayToBST(vector<int>& nums) {
+        int size = nums.size();
+
+        int left = 0;
+        int right = size-1;
+
+        TreeNode* root = treeBuilder(nums, left, right);
+
+        return root;
+
+    }
 };
