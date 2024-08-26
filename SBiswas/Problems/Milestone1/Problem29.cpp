@@ -16,31 +16,25 @@ struct TreeNode {
  };
 
 class Solution {
-
-    TreeNode* temp = new TreeNode;
-    TreeNode* ans = temp;
-    TreeNode* last_val_node = nullptr;
 public:
-
-    void inorder(TreeNode* root)
+    bool preorder(TreeNode* root, int& val)
     {
         if(!root)
         {
-            return;
+            return true;
         }
 
-        inorder(root->left);
-        last_val_node = temp;
-        temp->val = root->val;
-        temp->right = new TreeNode;
-        temp = temp->right;
-        inorder(root->right);
-    }
+        if(val != root->val)
+        {
+            return false;
+        }
 
-    TreeNode* increasingBST(TreeNode* root) {
+        return preorder(root->left, val) && preorder(root->right, val);
+    }
+    bool isUnivalTree(TreeNode* root) {
         
-        inorder(root);
-        last_val_node->right = nullptr;
-        return ans;
+        int val = root->val;
+
+        return preorder(root, val);
     }
 };
