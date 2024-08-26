@@ -10,3 +10,5 @@
 10. [171. Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/)
 11. [205. Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/description/)
 12. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
+13. [290. Word Pattern](https://leetcode.com/problems/word-pattern/description/)
+14. [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)
