@@ -13,18 +13,16 @@
 
 ### Directory Structure to submit problem
 
-* <Your_Name>/Milestone2/Problem1.cs  E.g.
+* <Your_Name>/Milestone<num>/Problem<num>.cs  E.g.
 	* `VinitKumar/Milestone1/Problem1.cs`
-	* `VinitKumar/Milestone1/Problem2.cs`
-	* `VinitKumar/Milestone2/Problem1.cs`
- 	* `VinitKumar/Milestone2/Problem2.cs`
+ 	* `VinitKumar/Milestone2/Problem1.cs`
  
 ### Create a local branch for each submission
 
-* For each problem, create a local branch in the format as - <your-name>/problem-<num>. E.g.
-  	* Create a local branch for problem 1 - `git checkout -b vinit/problem1`
+* For each problem, create a local branch. Local Branch name is going to be in the format- <your-name>/<milestone-num>/<problem-num>. E.g.
+  	* Create a local branch for problem 1 in milestone 2 - `git checkout -b vinit/milestone2/problem1`
 * Push this local branch to the remote origin and set it as upstream too -
-  	* `git push --set-upstream origin vinit/problem1`
+  	* `git push --set-upstream origin vinit/milestone2/problem1`
  
 ### Pull Requests
 
