@@ -12,3 +12,5 @@
 12. [242. Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)
 13. [290. Word Pattern](https://leetcode.com/problems/word-pattern/description/)
 14. [257. Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/)
+15. [58. Length of Last Word](https://leetcode.com/problems/length-of-last-word/)
+16. [415. Add Strings](https://leetcode.com/problems/add-strings/description/)
