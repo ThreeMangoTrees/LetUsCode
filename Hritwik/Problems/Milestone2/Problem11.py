@@ -30,7 +30,7 @@ def test_case_2():
     s = "foo"
     t = "bar"
     expected_output = False
-    assert solution.isIsomorphic(s, t) == expected_output, "Test Case 2 Failed!"
+    assert solution.isIsomorphic(s,t) == expected_output, "Test Case 2 Failed!"
     print("Test Case 2 Passed!")
 
 if __name__ == "__main__":
